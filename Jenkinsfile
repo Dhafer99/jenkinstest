@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the Git repository
-                git branch: 'main', url: 'https://your-git-repository-url.git'
+                git branch: 'main', url: 'https://github.com/Dhafer99/jenkinstest.git'
             }
         }
         
